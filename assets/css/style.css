@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.topo{
+    display: flex;
+    border: 3px  black;   
+    height: 168px;
+    flex-direction: column;
+
+}
+.topo--pagina{
+    display: flex;
+    flex: 1;
+    border: 1px solid rgb(139, 61, 199);
+    height: 168px;   
+    
+}
+.topo--procura{
+    flex: 1;
+    border: 1px solid rgb(139, 61, 199);
+} 
+
+.logo--topo{    
+    display: flex; 
+    flex-direction: row;
+    flex: 1;
+    border: 1px solid rgb(49, 77, 171);   
+}
+.abas--topo{
+    flex: 2;
+    border: 1px solid rgb(49, 77, 171)
+}
+
+.user--topo{
+    flex: 1.4;
+    border: 1px solid rgb(49, 77, 171)
+}
+
+.logo--topo--airbnb{
+    margin-top: 13px;
+    margin-left: 20px;
+}
